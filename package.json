@@ -1,0 +1,23 @@
+{
+  "name": "backend-vibewrite",
+  "version": "1.0.0",
+  "description": "this Backend is for blog Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aashish-Kaushik/Backend-VibeWrite.git"
+  },
+  "author": "Aashish Kaushik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aashish-Kaushik/Backend-VibeWrite/issues"
+  },
+  "homepage": "https://github.com/Aashish-Kaushik/Backend-VibeWrite#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
