@@ -22,3 +22,5 @@ const blogSchema = new mongoose.Schema({
         default: Date.now()
     }
 })
+
+module.exports = mongoose.model("Blogs", blogSchema);
