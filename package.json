@@ -1,6 +1,7 @@
 {
   "name": "backend-vibewrite",
   "version": "1.0.0",
+  "type": "module",
   "description": "this Backend is for blog Website",
   "main": "server.js",
   "scripts": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Aashish-Kaushik/Backend-VibeWrite#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1"
   }
 }
