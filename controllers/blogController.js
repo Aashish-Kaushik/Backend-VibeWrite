@@ -39,3 +39,28 @@ exports.findBlogByAuthor = async (req, res) => {
         })
     }
 }
+
+exports.findBlogById = async (req, res) => {
+    try {
+        const { id } = req.query
+        if (id) {
+            const blog = await blogModel.findOne({ _id: id }).lean()
+
+            res.send({
+                code: 200,
+                response: blog
+            })
+        } else {
+            res.send({
+                code: 500,
+                message: "please provide required parameters"
+            })
+        }
+
+    } catch (error) {
+        res.send({
+            code: 500,
+            message: error.message
+        })
+    }
+}

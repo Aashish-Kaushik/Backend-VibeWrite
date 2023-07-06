@@ -15,6 +15,8 @@ const blogSchema = new mongoose.Schema({
     },
     userId: {
         type: String,
+        unique: true,
+        lowercase: true
 
     },
     createdAt: {
